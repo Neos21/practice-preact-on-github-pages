@@ -1,4 +1,9 @@
-node_modules
-/build
-/*.log
-*.lock
+.DS_Store
+Thumbs.db
+
+*.log
+
+node_modules/
+
+size-plugin.json
+build/

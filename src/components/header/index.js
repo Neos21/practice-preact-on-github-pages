@@ -1,17 +1,19 @@
 import { h } from 'preact';
 import { Link } from 'preact-router/match';
-import style from './style.css';
+
 import baseroute from '../../baseroute';
 
+import style from './style.css';
+
 const Header = () => (
-	<header class={style.header}>
-		<h1>Preact App</h1>
-		<nav>
+  <header class={style.header}>
+    <h1>Preact App</h1>
+    <nav>
       <Link activeClassName={style.active} href={`${baseroute}/`}>Home</Link>
       <Link activeClassName={style.active} href={`${baseroute}/profile`}>Me</Link>
       <Link activeClassName={style.active} href={`${baseroute}/profile/john`}>John</Link>
-		</nav>
-	</header>
+    </nav>
+  </header>
 );
 
 export default Header;
