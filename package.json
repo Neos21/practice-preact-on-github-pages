@@ -1,21 +1,21 @@
 {
-  "name": "preact-github-actions-to-github-pages",
-  "description": "Preact GitHub Actions To GitHub Pages",
+  "name": "practice-preact-on-github-pages",
+  "description": "Practice Preact On GitHub Pages",
   "private": true,
   "scripts": {
     "start": "preact build && serve build --single",
     "dev": "preact watch",
-    "build": "GITHUB_PAGES=preact-github-actions-to-github-pages preact build && dot-json ./build/manifest.json start_url '/preact-github-actions-to-github-pages/'"
+    "build": "GITHUB_PAGES=practice-preact-on-github-pages preact build && dot-json ./build/manifest.json start_url '/practice-preact-on-github-pages/'"
   },
   "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
   "license": "MIT",
-  "homepage": "https://github.com/Neos21/preact-github-actions-to-github-pages#readme",
+  "homepage": "https://github.com/Neos21/practice-preact-on-github-pages#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Neos21/preact-github-actions-to-github-pages.git"
+    "url": "git+https://github.com/Neos21/practice-preact-on-github-pages.git"
   },
   "bugs": {
-    "url": "https://github.com/Neos21/preact-github-actions-to-github-pages/issues"
+    "url": "https://github.com/Neos21/practice-preact-on-github-pages/issues"
   },
   "funding": {
     "type": "github",

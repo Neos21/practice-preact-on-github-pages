@@ -1,6 +1,6 @@
 {
-  "name": "preact-github-actions-to-github-pages",
-  "short_name": "preact-github-actions-to-github-pages",
+  "name": "practice-preact-on-github-pages",
+  "short_name": "practice-preact-on-github-pages",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

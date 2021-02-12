@@ -7,7 +7,7 @@ import style from './style.css';
 
 const Header = () => (
   <header class={style.header}>
-    <h1>Preact App</h1>
+    <h1>Practice Preact On GitHub Pages</h1>
     <nav>
       <Link activeClassName={style.active} href={`${baseroute}/`}>Home</Link>
       <Link activeClassName={style.active} href={`${baseroute}/profile`}>Me</Link>
